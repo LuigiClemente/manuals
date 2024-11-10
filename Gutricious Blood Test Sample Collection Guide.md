@@ -1,6 +1,6 @@
 ---
 
-# Gutricious Blood Test Sample Collection Manual
+# Gutricious Blood Test Sample Collection Guide
 
 Welcome to your Gutricious blood test! This guide will help you easily collect and ship your blood sample. Remember, this test should be conducted two hours after consuming your lunch cookies. Let's get started!
 
