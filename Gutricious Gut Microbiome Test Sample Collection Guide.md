@@ -1,64 +1,57 @@
----
-
 # Gutricious Gut Microbiome Test Sample Collection Guide
 
-Welcome to your Gutricious gut microbiome test! This guide will help you smoothly and efficiently collect and ship your stool sample. Let’s get started on this important step towards understanding your gut health!
+Welcome to your Gutricious gut microbiome test! This guide will help you collect and ship your stool sample with ease. Follow these steps carefully to ensure a smooth process and reliable results for your gut health journey.
 
-### What You Will Need
+### What’s Inside Your Kit
 
-- **Stool Collection Material (FecesCatcher):** For easy and clean sample collection.
-- **Sample Tube:** To store your collected stool sample.
-- **RigidSafetyBag:** For securing the sample tube.
-- **Shipping Bag for Biological Substances:** To mail your sample safely.
-- **UPS Return Box:** For shipping your sample back to the lab.
+- **Stool Collection Material (FecesCatcher):** For a clean and easy sample collection process.
+- **Sample Tube with Spoon:** A tube with an integrated spoon inside the cap to collect and securely store your stool sample.
+- **RigidSafetyBag:** To keep the sample tube protected during transit.
 
 ### Important Reminders
 
-- **Timing:** Collect your sample after consuming the lunch cookies.
-- **UPS Shipping:** Make sure today is a UPS collection or drop-off day to ensure timely delivery of your sample.
+- **Timing:** Collect your sample after a minimum two-hour fasting period following your lunch cookies. Ensure you have consumed both the breakfast and lunch cookies before proceeding with the test sample collection.
+- **Register Your Shipment:**
+  - Scan the QR code on the kit’s outer box to register your shipment online and enable tracking.
+  - Confirm that you have the labeled return box ready for shipping.
 
 ### Step-by-Step Instructions
 
 #### 1. Preparation
 
-- **Check Your Kit:** Make sure you have all the items listed above.
-- **Register Your Shipment:**
-  - Scan the QR code on the box to register your shipment online.
-  - Confirm that you have access to a UPS return box for easy shipping.
+- **Open the Kit Carefully:** Ensure you have all items listed above.
 
 #### 2. Collect Stool (Feces)
 
-- **Using the FecesCatcher:** 
-  - Follow the simple instructions on the FecesCatcher to attach it securely to your toilet seat.
-  - Ensure no water, urine, or cleaning products contaminate your sample.
+- **Set Up the FecesCatcher:**
+  - Follow the simple instructions provided to securely attach the FecesCatcher to your toilet seat.
+  - Ensure no water, urine, or cleaning products contact or contaminate your sample.
 
-#### 3. Collect Test Material
+#### 3. Collect the Sample
 
-- **Scoop the Stool:**
-  - Use the spoon inside the brown cap of the sample tube to collect your stool.
-  - Fill the tube to at least the 8 ml mark, but no more than 12 ml.
-  - Close the tube securely to prevent leaks.
+- **Use the Integrated Spoon:**
+  - Open the sample tube, and use the small spoon attached to the inside of the brown cap to collect your stool sample.
+  - Scoop stool carefully to fill the tube to at least the 8 ml mark but no more than 12 ml.
+  - Close the tube tightly to prevent any leaks.
 
 - **Dispose of Remaining Material:**
-  - Flush any leftover stool and the FecesCatcher down the toilet, following the printed instructions.
+  - Follow the provided instructions to flush any leftover stool and the FecesCatcher down the toilet.
 
-#### 4. Packing and Shipping
+#### 4. Packing Your Sample for Shipping
 
-- **Secure the Sample:**
-  - Place the sample tube in the RigidSafetyBag using the plastic holder.
-  - Seal the RigidSafetyBag and place it in the shipping bag for biological substances.
+- **Secure the Sample in the RigidSafetyBag:**
+  - Place the sealed sample tube inside the RigidSafetyBag, securing it in the plastic holder inside.
+  - Seal the RigidSafetyBag tightly.
 
-- **Prepare for Shipment:**
-  - Place the sealed shipping bag inside the UPS return box.
-  - Seal the return box properly and ship the test material on the same day.
-  - If same-day shipping isn’t possible, store the sample in the refrigerator at +4°C and ship it on the next UPS collection day.
+- **Place the RigidSafetyBag in the Return Box:**
+  - Insert the sealed RigidSafetyBag into the return box. The return box is pre-labeled for shipping, so no additional steps are needed to attach a label.
 
-### Shipping Instructions
+#### 5. Shipping Your Sample
 
-- **Use UPS Express Service:**
-  - Visit your nearest UPS access point to drop off the return box.
-  - Ensure your sample is sent swiftly using the UPS service.
+- **Prepare for Drop-off:**
+  - Ensure that you can drop off or arrange a collection for the return box either the same day or the next day to maintain sample freshness.
+  - Take the return box to the designated carrier location specified on the label for secure and swift delivery.
 
-Thank you for participating in the Gutricious gut microbiome test. Your sample will provide valuable insights into your gut health. If you have any questions, our support team is ready to assist you.
+If same-day shipping isn’t possible, store your sample in the refrigerator at approximately +4°C and ship it on the next available collection day.
 
----
+Thank you for choosing Gutricious for your gut health journey. If you have any questions, our support team is ready to assist you.
