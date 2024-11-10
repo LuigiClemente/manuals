@@ -35,8 +35,8 @@ Welcome to your Gutricious gut microbiome test! This guide will help you collect
   - Close the tube tightly to prevent any leaks.
 
 - **Dispose of Remaining Material:**
-  - Follow the provided instructions to flush any leftover stool and the FecesCatcher down the toilet.
-
+  - Dispose the FecesCatcher as you would toilet paper. 
+    
 #### 4. Packing Your Sample for Shipping
 
 - **Secure the Sample in the RigidSafetyBag:**
