@@ -9,6 +9,7 @@ Welcome to your Gutricious blood test! This guide will assist you in collecting 
 - **Blood Collection Tube with Cap:** To securely store your blood sample.
 - **Plaster:** To cover your finger after the prick.
 - **Tissue:** For drying and cleaning your hands.
+- **RigidSafetyBag:** Protects the sample tube during transit.
 
 ### Important Reminders
 
