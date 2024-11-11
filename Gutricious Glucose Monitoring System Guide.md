@@ -14,6 +14,7 @@ This system is designed for individuals over 18 and for teenagers with parental 
 
 ### Important Reminders
 
+- **Overnight Fasting Requirement:** For optimal tracking, ensure you have fasted overnight before beginning your monitoring session.
 - **Timing for Cookie Consumption:** Ideally, begin monitoring the night before your test or, at minimum, 60 minutes before consuming the breakfast cookies to ensure accurate tracking.
 - **Register Your Device and App Installation:**
   - Use the QR code on the glucose monitor device to install the CGM app on your smartphone. This will allow you to set up your device, register it, and enable glucose tracking through the app.
@@ -45,9 +46,9 @@ This system is designed for individuals over 18 and for teenagers with parental 
 
 ### Data Collection and Logging
 
-- **Log Meals, Snacks, and Sugary Drinks**: During the 3 to 15 days of continuous monitoring, use the Gutricious app to log each meal, snack, and sugary drink you consume. Detailed logging will provide a clearer view of how your glucose levels respond to different foods and drinks.
+- **Log Meals, Snacks, and Sugary Drinks:** During the 3 to 15 days of continuous monitoring, use the Gutricious app to log each meal, snack, and sugary drink you consume. Detailed logging will provide a clearer view of how your glucose levels respond to different foods and drinks.
   
-- **End of Monitoring**: Once you have completed your monitoring period, use the CGM device to generate a report of your glucose data. Save this report and submit it through the Gutricious app.
+- **End of Monitoring:** Once you have completed your monitoring period, use the CGM device to generate a report of your glucose data. Save this report and submit it through the Gutricious app.
 
 ### Additional Benefits
 
