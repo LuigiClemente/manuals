@@ -1,61 +1,60 @@
----
-
 # Gutricious Blood Test Sample Collection Guide
 
-Welcome to your Gutricious blood test! This guide will help you easily collect and ship your blood sample. Remember, this test should be conducted two hours after consuming your lunch cookies. Let's get started!
+Welcome to your Gutricious blood test! This guide will assist you in collecting and shipping your blood sample efficiently. Follow these steps carefully to ensure accurate results for your health assessment.
 
-### What You Will Need
+### What’s Inside Your Kit
 
-- **Alcohol Wipe:** To clean your finger.
-- **Blue-White Finger Prick Needles:** For collecting the blood sample.
-- **Blood Tube with Purple Cap:** To store your blood sample.
+- **Alcohol Wipe:** For cleaning your finger before sample collection.
+- **Finger Prick Needle:** For performing the finger prick and collecting the blood sample.
+- **Blood Collection Tube with Cap:** To securely store your blood sample.
 - **Plaster:** To cover your finger after the prick.
-- **Tissue:** To clean and dry your hands.
+- **Tissue:** For drying and cleaning your hands.
 
 ### Important Reminders
 
-- **Scan the QR Code:** Before starting, scan the QR code on your test kit to register your shipment. This ensures everything is set up for easy shipping.
-- **Timing:** Make sure today is a UPS collection or drop-off day to ensure timely delivery of your sample.
+- **Timing:** Collect your blood sample two hours after consuming your lunch cookies. Ensure you have completed both the breakfast and lunch cookies before proceeding with sample collection.
+- **Register Your Shipment:**
+  - Scan the kit’s QR code to register your shipment online and enable tracking.
+  - Confirm that you have the labelled return box ready for shipping.
 
 ### Step-by-Step Instructions
 
 #### 1. Preparation
 
-- **Gather Your Supplies:** Lay out all the components from your kit.
-- **Warm Your Hands:** Wash them with warm water or rub them together to increase blood flow.
-- **Select a Spot:** Choose the side of your ring or middle finger for the prick. Clean the area with the alcohol wipe and let it dry.
+- **Open the Kit Carefully:** Verify that all items listed above are present.
+- **Warm Your Hands:** Wash your hands with warm water or rub them together to increase blood flow.
+- **Select a Spot:** Choose the side of your ring or middle finger for the prick, as these areas are optimal for blood collection. Clean the selected area with the alcohol wipe and allow it to air dry.
 
 #### 2. Collecting Your Blood Sample
 
 - **Perform the Finger Prick:**
-  - Unscrew the cap from the blue-white needle.
-  - Hold your hand downward and gently press the white side of the needle against your finger until you hear a click.
-  - Remove the needle after the click.
+  - Twist off the cap from the finger prick needle.
+  - Hold your hand downward and gently press the needle against the side of your finger until you hear a click.
+  - Remove the needle after the click to expose the blood.
 
 - **Collect the Blood:**
-  - Keep your hand down and gently massage from the palm to the fingertip to encourage blood flow.
-  - Fill the tube with at least half the amount of blood. If necessary, use a new needle to get more blood.
+  - Keep your hand pointed downward and gently massage from the palm to the fingertip to encourage blood flow.
+  - Fill the collection tube to at least halfway; if additional blood is needed, use a new finger prick needle and repeat the process.
 
 - **Secure the Sample:**
-  - Close the purple cap tightly on the blood tube.
-  - Apply the plaster to your finger.
+  - Close the cap tightly on the blood collection tube to prevent leaks.
+  - Apply the plaster to your finger for protection.
 
-#### 3. Packing and Shipping
+#### 3. Packing Your Sample for Shipping
 
-- **Pack Your Sample:**
-  - Place the blood tube in the RigidSafetyBag and seal it.
-  - Place the sealed bag in the shipping bag for biological substances.
+- **Secure the Sample in the RigidSafetyBag:**
+  - Place the capped blood collection tube inside the RigidSafetyBag, securing it in the plastic holder.
+  - Seal the RigidSafetyBag tightly.
 
-- **Prepare for Shipment:**
-  - Seal the shipping bag securely and ship your test material on the same day.
-  - If same-day shipping isn’t possible, store the sample in a cool place until it can be shipped on the next UPS collection day.
+- **Place the RigidSafetyBag in the Return Box:**
+  - Insert the sealed RigidSafetyBag into the pre-labelled return box. The return box is already labelled for shipping, so no additional labelling is required.
 
-### Shipping Instructions
+#### 4. Shipping Your Sample
 
-- **Use UPS Express Service:**
-  - Visit [ups.com/dropoff](http://ups.com/dropoff) to find your nearest UPS access point.
-  - Use the UPS service to send your sample swiftly.
+- **Arrange Drop-off or Collection:**
+  - Check the return box for the carrier indicated on the pre-labelled box.
+  - Visit the carrier’s website to locate the nearest drop-off location or schedule a pickup, ensuring timely shipping.
 
-Thank you for choosing Gutricious. Your test will provide valuable insights into your health, and we’re here to support you every step of the way. If you have any questions, please reach out to our support team.
+If same-day shipping isn’t possible, store your sample in the refrigerator at approximately +4°C and ship it on the next available collection day.
 
----
+Thank you for choosing Gutricious for your health journey. Your sample will provide valuable insights into your health. If you have any questions, our support team is ready to assist you.
