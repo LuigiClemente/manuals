@@ -1,6 +1,6 @@
 # Continuous Glucose Monitoring System Quick Start Guide
 
-Welcome to your Continuous Glucose Monitoring System! This guide will assist you in setting up and using your glucose monitoring device efficiently. Please follow all instructions carefully to ensure accurate results for your health assessment and to complete your Gutricious test with ease.
+This guide will assist you in setting up and using your glucose monitoring device efficiently. Please follow all instructions carefully to ensure accurate results for your health assessment and to complete your Gutricious test with ease.
 
 ### Intended Use
 
