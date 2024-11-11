@@ -6,7 +6,7 @@ Welcome to your Gutricious gut microbiome test! This guide will assist you in co
 
 - **Stool Collection Material (FaecesCatcher):** Facilitates a clean and easy sample collection process.
 - **Sample Tube with Spoon:** Equipped with an integrated spoon inside the cap to collect and securely store your stool sample.
-- **RigidSafetyBag:** Protects the sample tube during transit.
+- **Rigid Safety Bag:** Protects the sample tube during transit.
 
 ### Important Reminders
 
@@ -40,11 +40,11 @@ Welcome to your Gutricious gut microbiome test! This guide will assist you in co
 #### 4. Packing Your Sample for Shipping
 
 - **Secure the Sample in the RigidSafetyBag:**
-  - Place the sealed sample tube inside the RigidSafetyBag, securing it in the plastic holder.
+  - Place the sealed sample tube inside the Rigid Safety Bag, securing it in the plastic holder.
   - Seal the RigidSafetyBag tightly.
 
 - **Place the RigidSafetyBag in the Return Box:**
-  - Insert the sealed RigidSafetyBag into the return box. The return box is pre-labelled for shipping, so no additional steps are needed to attach a label.
+  - Insert the sealed Rigid Safety Bag into the return box. The return box is pre-labelled for shipping, so no additional steps are needed to attach a label.
 
 #### 5. Shipping Your Sample
 
