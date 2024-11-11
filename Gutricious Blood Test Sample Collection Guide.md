@@ -9,7 +9,7 @@ Welcome to your Gutricious blood test! This guide will assist you in collecting 
 - **Blood Collection Tube with Cap:** To securely store your blood sample.
 - **Plaster:** To cover your finger after the prick.
 - **Tissue:** For drying and cleaning your hands.
-- **RigidSafetyBag:** Protects the sample tube during transit.
+- **Rigid Safety Bag:** Protects the sample tube during transit.
 
 ### Important Reminders
 
@@ -44,8 +44,8 @@ Welcome to your Gutricious blood test! This guide will assist you in collecting 
 #### 3. Packing Your Sample for Shipping
 
 - **Secure the Sample in the RigidSafetyBag:**
-  - Place the capped blood collection tube inside the RigidSafetyBag, securing it in the plastic holder.
-  - Seal the RigidSafetyBag tightly.
+  - Place the capped blood collection tube inside the Rigid Safety Bag, securing it in the plastic holder.
+  - Seal the Rigid Safety Bag tightly.
 
 - **Place the RigidSafetyBag in the Return Box:**
   - Insert the sealed RigidSafetyBag into the pre-labelled return box. The return box is already labelled for shipping, so no additional labelling is required.
