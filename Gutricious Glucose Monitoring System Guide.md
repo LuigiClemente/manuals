@@ -1,73 +1,62 @@
----
-
 # Continuous Glucose Monitoring System Quick Start Guide
 
-Welcome to your Continuous Glucose Monitoring System! This guide will help you set up and use your glucose monitoring device easily and effectively. Please read all instructions carefully before proceeding. Let’s get started!
+Welcome to your Continuous Glucose Monitoring System! This guide will assist you in setting up and using your glucose monitoring device efficiently. Please follow all instructions carefully to ensure accurate results for your health assessment and to complete your Gutricious test with ease.
 
-### Who Can Use This Device?
+### Intended Use
 
-This system is designed for adults over 18 and teenagers with parental supervision. It assists in managing diabetes by tracking glucose trends and detecting patterns of hyperglycemia and hypoglycemia, supporting both immediate and long-term therapy adjustments.
+This system is designed for individuals over 18 and for teenagers with parental supervision. It provides continuous glucose monitoring to help track sugar trends and detect patterns of high and low glucose levels, offering valuable insights for personalised health management.
 
-### What’s in Your Kit?
+### What’s Inside Your Kit
 
-- **Alcohol Wipe:** To clean and sterilize the application site.
-- **Sensor Applicator:** Contains the sensor and helps apply it to your skin.
-- **Cover:** Protects the sensor and ensures it stays securely in place.
+- **Alcohol Wipe:** For cleaning and sterilising the application site.
+- **Sensor Applicator:** Contains the sensor and assists with applying it to the skin.
+- **Sensor Cover:** Protects the sensor, ensuring it remains securely in place.
 
-### Important Information
+### Important Reminders
 
-- **MRI Precaution:** Remove the CGM device before any Magnetic Resonance Imaging (MRI).
-- **Pregnancy:** This system has not been evaluated for use in pregnant women.
+- **Timing for Cookie Consumption:** Ideally, begin monitoring the night before your test or, at minimum, 60 minutes before consuming the breakfast cookies to ensure accurate tracking.
+- **Register Your Device and App Installation:**
+  - Use the QR code on the glucose monitor device to install the CGM app on your smartphone. This will allow you to set up your device, register it, and enable glucose tracking through the app.
+  - Confirm that your device is fully set up and registered in the CGM app before proceeding with the sensor application.
 
-### Device Description
+### Step-by-Step Instructions
 
-The new generation glucose monitoring device is the smallest in its class, designed to minimize inconvenience and maximize comfort. The sensor includes a small, flexible tip that is inserted just under the skin and can be worn for up to 15 days, allowing for continuous data collection over an extended period.
+#### 1. Preparation
 
-### Setting Up Your Device
+- **Open the Kit Carefully:** Confirm that all items listed above are present.
+- **Choose an Application Site:** Select either the back of your upper arm or abdomen:
+  - **Upper Arm:** Apply to the back of the arm, avoiding muscles on the outer side.
+  - **Abdomen:** Avoid the waistband, stretch marks, or any previous injection sites. Ensure the application point is at least 5 cm away from your navel.
+- **Clean the Site:** Use the provided alcohol wipe to clean the selected application area, and allow it to dry completely.
 
-#### 1. Download the App
+#### 2. Applying the Sensor
 
-- **Scan the QR Code:** Use your smartphone to scan the QR code included in your kit to download the glucose monitoring app from the Google Play Store or Apple App Store.
-- **Register Your Device:** Follow the app's on-screen instructions to set up your device and create your user profile.
+- **Prepare the Applicator:**
+  - Unscrew the cover from the sensor applicator and set it aside.
+- **Apply the Sensor:**
+  - Align the opening of the applicator with the skin at the chosen site.
+  - Press the applicator lightly against the skin and push the implantation button.
+  - Wait a few seconds after the click to ensure the sensor is securely attached.
+- **Remove the Applicator:**
+  - Carefully pull the applicator away from the skin. The puncture needle will retract automatically, leaving the sensor in place.
+- **Secure the Sensor:**
+  - Confirm that the sensor is firmly in place on your skin.
+  - Replace the cover on the applicator for storage, if applicable.
 
-#### 2. Sensor Application
+### Data Collection and Logging
 
-**Select Insertion Area:**
-
-- **Upper Arm:** The back of your upper arm is recommended, avoiding muscles on the outer side.
-- **Abdomen:** Avoid the waistband, stretch marks, and injection sites, ensuring the insertion point is at least 5 cm away from your navel.
-
-**Application Steps:**
-
-1. **Sterilize the Area:**
-   - Clean the selected insertion site with the provided alcohol wipe and allow it to dry completely.
-
-2. **Prepare the Applicator:**
-   - Unscrew the cover from the sensor applicator and set it aside.
-
-3. **Apply the Sensor:**
-   - Align the opening of the applicator with the skin at the chosen site.
-   - Press the applicator lightly against the skin and press the implantation button.
-   - Wait a few seconds after hearing the click of the spring retracting to ensure the sensor is securely applied.
-
-4. **Remove the Applicator:**
-   - Gently pull the applicator away from the sensor. The puncture needle will retract automatically.
-
-5. **Secure the Sensor:**
-   - Confirm that the sensor is firmly in place.
-   - Replace the cover on the sensor applicator for storage.
-
-### Data Collection
-
-- **Monitoring Duration:** While at least 3 days of continuous data collection is recommended, wearing the device for up to 15 days can provide more comprehensive insights into your glucose trends.
-- **Real-Time Monitoring:** Use the app to track your glucose levels in real-time and analyze trends for better diabetes management.
+- **Log Meals, Snacks, and Sugary Drinks**: During the 3 to 15 days of continuous monitoring, use the Gutricious app to log each meal, snack, and sugary drink you consume. Detailed logging will provide a clearer view of how your glucose levels respond to different foods and drinks.
+  
+- **End of Monitoring**: Once you have completed your monitoring period, use the CGM device to generate a report of your glucose data. Save this report and submit it through the Gutricious app.
 
 ### Additional Benefits
 
-- **Long-Term Data:** Extended wear provides a broader view of glucose patterns, helping you and your healthcare provider make informed decisions.
-- **Convenience:** The small and discreet design offers comfort and minimal disruption to daily activities.
+- **Extended Wear Data:** Wearing the device continuously for a minimum of 3 days provides essential insights into glucose patterns. For a more comprehensive view, wear the device for up to 15 days to support informed health decisions.
+- **Comfortable Design:** The small, discreet sensor design provides maximum comfort and minimal disruption to daily activities.
 
-Thank you for choosing our Continuous Glucose Monitoring System. We’re here to provide you with valuable insights into your glucose levels and support your health management. If you have any questions or need assistance, please contact our support team.
+### Important Information
 
----
+- **MRI Precaution:** Remove the CGM device before undergoing any Magnetic Resonance Imaging (MRI).
+- **Pregnancy:** This system has not been evaluated for use in pregnant individuals.
 
+Thank you for choosing the Continuous Glucose Monitoring System. This device will provide valuable insights into your glucose levels and help support your health management goals. If you have any questions or need assistance, our support team is ready to assist you.
