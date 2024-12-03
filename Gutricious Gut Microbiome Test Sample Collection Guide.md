@@ -21,13 +21,11 @@ Welcome to your Gutricious gut microbiome test! This guide will assist you in co
 
 - **Open the Kit Carefully:** Verify that all items listed above are present.
 
-#### 2. Collect Stool (Faeces)
-
 - **Set Up the FaecesCatcher:**
   - Follow the provided instructions to securely attach the FaecesCatcher to your toilet seat.
   - Ensure no water, urine, or cleaning products come into contact with your sample.
 
-#### 3. Collect the Sample
+#### 2. Collect the Sample
 
 - **Use the Integrated Spoon:**
   - Open the sample tube and use the spoon attached to the inside of the brown cap to collect your stool sample.
@@ -37,7 +35,7 @@ Welcome to your Gutricious gut microbiome test! This guide will assist you in co
 - **Dispose of Remaining Material:**
   - Dispose of any remaining stool and the biodegradable FaecesCatcher by flushing them down the toilet as you would with toilet paper, if your plumbing system allows.
 
-#### 4. Packing Your Sample for Shipping
+#### 3. Packing Your Sample for Shipping
 
 - **Secure the Sample in the RigidSafetyBag:**
   - Place the sealed sample tube inside the Rigid Safety Bag, securing it in the plastic holder.
@@ -46,7 +44,7 @@ Welcome to your Gutricious gut microbiome test! This guide will assist you in co
 - **Place the RigidSafetyBag in the Return Box:**
   - Insert the sealed Rigid Safety Bag into the return box. The return box is pre-labelled for shipping, so no additional steps are needed to attach a label.
 
-#### 5. Shipping Your Sample
+#### 4. Shipping Your Sample
 
 - **Arrange Drop-off or Collection:**
   - Identify the carrier indicated on the pre-labelled return box.
