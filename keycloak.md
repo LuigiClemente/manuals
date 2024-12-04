@@ -1,162 +1,117 @@
-### **Options for Token Storage in APISIX**
-APISIX supports token storage for:
-1. **Caching Tokens**: To reduce the need for repeated validation with the IdP.
-2. **Persistent Storage**: For long-term storage of tokens (e.g., refresh tokens or client secrets).
 
-### **1. Configure Token Caching in APISIX**
-APISIX can cache validated tokens to avoid repeatedly querying the Keycloak IdP.
 
-#### **Step 1: Enable OpenID Connect Plugin**
-Ensure the OpenID Connect plugin is installed and configured.
+### **Implementation Steps**
 
-Example:
-```json
-{
-  "plugins": {
-    "openid-connect": {
-      "client_id": "apisix-client",
-      "client_secret": "<client-secret>",
-      "discovery": "http://<keycloak-domain>/realms/<realm>/.well-known/openid-configuration",
-      "introspection_endpoint_auth_method": "client_secret_basic",
-      "scope": "openid",
-      "bearer_only": true
-    }
-  },
-  "uri": "/protected/*",
-  "upstream": {
-    "nodes": {
-      "127.0.0.1:8080": 1
-    },
-    "type": "roundrobin"
-  }
-}
-```
-
-#### **Step 2: Enable Token Caching**
-Add token caching settings to the OpenID Connect plugin configuration:
-```json
-{
-  "plugins": {
-    "openid-connect": {
-      "client_id": "apisix-client",
-      "client_secret": "<client-secret>",
-      "discovery": "http://<keycloak-domain>/realms/<realm>/.well-known/openid-configuration",
-      "introspection_endpoint_auth_method": "client_secret_basic",
-      "scope": "openid",
-      "bearer_only": true,
-      "cache_tokens": true,
-      "cache_ttl": 300
-    }
-  }
-}
-```
-
-- **`cache_tokens`**: Enables token caching.
-- **`cache_ttl`**: Defines the time-to-live (TTL) for cached tokens in seconds.
-
-This setup ensures validated tokens are cached for 5 minutes (`300 seconds`) before requiring revalidation.
+#### **Step 1: Authenticate to Keycloak**
+1. Use **Keycloak** as your primary Identity Provider (IdP) to authenticate the user.
+2. Obtain the Keycloak-issued access token upon successful login.
 
 ---
 
-### **2. Store Tokens Persistently**
-If you need to store tokens persistently (e.g., refresh tokens or client secrets), you can use APISIX’s integration with etcd or other plugins:
+#### **Step 2: Fetch and Store Zammad Token**
+1. **Use the Keycloak Token to Fetch Zammad Token**:
+   - After authenticating with Keycloak, make a request to Zammad to exchange or generate an API token.
+   - Zammad supports generating an API token for a user.
 
-#### **Step 1: Use etcd (Default Storage)**
-APISIX uses etcd as its default storage backend. Tokens and metadata can be stored as part of the route or plugin configurations.
-
-1. **Save Tokens**:
-   You can write tokens to etcd directly using the APISIX admin API:
+   Example:
    ```bash
-   curl http://<apisix-admin-url>/apisix/admin/routes/1 -X PUT -d '{
-     "uri": "/protected/*",
-     "plugins": {
-       "openid-connect": {
-         "client_id": "apisix-client",
-         "client_secret": "<client-secret>",
-         "discovery": "http://<keycloak-domain>/realms/<realm>/.well-known/openid-configuration",
-         "cache_tokens": true,
-         "cache_ttl": 300
-       }
-     },
-     "metadata": {
-       "refresh_token": "<refresh-token>"
-     }
+   curl -X POST https://<zammad-url>/api/v1/token \
+   -H "Authorization: Bearer <keycloak-access-token>" \
+   -d '{
+     "name": "APISIXIntegration",
+     "expires_at": null
    }'
    ```
 
-2. **Read Tokens**:
-   Tokens stored in etcd can be accessed through the APISIX admin API or directly via etcd commands.
+   This request generates a token that does not expire (`expires_at: null`).
+
+2. **Store Zammad Token in APISIX**:
+   - Use APISIX’s **metadata** or a persistent storage option to save the Zammad token for subsequent requests.
+   - Example: Use the **Admin API** to store the token:
+     ```bash
+     curl -X PATCH http://<apisix-admin-url>/apisix/admin/routes/1 \
+     -H "Content-Type: application/json" \
+     -d '{
+       "uri": "/zammad/*",
+       "plugins": {
+         "proxy-rewrite": {
+           "headers": {
+             "Authorization": "Token token=<zammad-token>"
+           }
+         }
+       }
+     }'
+     ```
+
+   This configures APISIX to automatically inject the stored Zammad token into the `Authorization` header for all requests matching `/zammad/*`.
 
 ---
 
-### **3. Advanced Token Management with Redis**
-If you need a high-performance, external caching solution, integrate **Redis** with APISIX:
-
-#### **Step 1: Install Redis**
-Set up a Redis server as your external token storage.
-
-#### **Step 2: Configure APISIX to Use Redis**
-Enable the Redis plugin for caching tokens. Update your APISIX configuration:
-```yaml
-# conf/config.yaml
-plugin_attr:
-  openid-connect:
-    token_cache:
-      host: 127.0.0.1
-      port: 6379
-      timeout: 2000
-      ttl: 300
-```
-
-#### **Step 3: Configure OpenID Connect Plugin**
-Update the OpenID Connect plugin configuration to use Redis for token caching:
-```json
-{
-  "plugins": {
-    "openid-connect": {
-      "client_id": "apisix-client",
-      "client_secret": "<client-secret>",
-      "discovery": "http://<keycloak-domain>/realms/<realm>/.well-known/openid-configuration",
-      "cache_tokens": true
-    }
-  },
-  "uri": "/protected/*",
-  "upstream": {
-    "nodes": {
-      "127.0.0.1:8080": 1
-    },
-    "type": "roundrobin"
-  }
-}
-```
-
----
-
-### **4. Use JWT for Token Validation**
-If Keycloak issues **JWT tokens**, you can skip storage and validate tokens directly:
-
-1. **Configure Public Key Validation**:
-   Use Keycloak’s `jwks_uri` (from the discovery document) to validate JWT tokens:
-   ```json
-   {
-     "plugins": {
-       "jwt-auth": {
-         "key": "<public-key>",
-         "algorithm": "RS256"
+#### **Step 3: Configure APISIX to Handle Requests**
+1. **Route Configuration**:
+   - Define an APISIX route for forwarding requests to Zammad:
+     ```json
+     {
+       "uri": "/zammad/*",
+       "plugins": {
+         "proxy-rewrite": {
+           "headers": {
+             "Authorization": "Token token=<zammad-token>"
+           }
+         }
+       },
+       "upstream": {
+         "nodes": {
+           "zammad-server-ip:80": 1
+         },
+         "type": "roundrobin"
        }
      }
-   }
-   ```
+     ```
 
-2. **Skip Token Storage**:
-   JWTs are self-contained and do not require caching or storage.
+2. **Handle Zammad API Authentication**:
+   - APISIX uses the stored Zammad token for authentication, eliminating the need for the frontend to handle the Zammad token directly.
 
 ---
 
-### **Best Practices**
-- **Minimize Token Storage**: Use token caching or JWT validation wherever possible to avoid persistent storage.
-- **Secure Sensitive Data**:
-  - Use HTTPS to secure token exchanges.
-  - Encrypt stored tokens in etcd or Redis.
-- **Set Appropriate TTL**: Balance caching duration with token expiration to optimize performance and security.
+#### **Step 4: Update Token When Necessary**
+If the Zammad token needs to be refreshed or rotated:
+1. Create a mechanism to fetch a new Zammad token programmatically (e.g., a cron job or middleware service).
+2. Update the token in APISIX dynamically using the Admin API.
 
+Example script:
+```bash
+NEW_TOKEN=$(curl -X POST https://<zammad-url>/api/v1/token -H "Authorization: Bearer <keycloak-access-token>" -d '{"name": "APISIXIntegration", "expires_at": null}' | jq -r .token)
+
+curl -X PATCH http://<apisix-admin-url>/apisix/admin/routes/1 \
+-H "Content-Type: application/json" \
+-d '{
+  "plugins": {
+    "proxy-rewrite": {
+      "headers": {
+        "Authorization": "Token token='$NEW_TOKEN'"
+      }
+    }
+  }
+}'
+```
+
+---
+
+#### **Step 5: Secure the Token Storage**
+1. **Encrypt Tokens**:
+   - Use encryption to secure the token stored in APISIX if required by your security policies.
+2. **Limit Token Scope**:
+   - Ensure the Zammad token has only the required permissions to reduce security risks in case of misuse.
+3. **Restrict Admin API Access**:
+   - Protect the APISIX Admin API using IP whitelisting, basic authentication, or mTLS.
+
+---
+
+### **Flow Summary**
+1. User logs in via Keycloak, and a Keycloak token is issued.
+2. APISIX fetches a Zammad token using the Keycloak token.
+3. APISIX stores the Zammad token in its configuration.
+4. For subsequent requests, APISIX injects the stored Zammad token into the `Authorization` header automatically.
+
+This approach eliminates the need for the frontend to handle Zammad tokens and provides centralized token management through APISIX. Let me know if you need further assistance implementing this!
