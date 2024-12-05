@@ -1,3 +1,54 @@
+
+![icon_3](https://github.com/user-attachments/assets/95bfec08-7d01-4ba6-a896-6e162897a578)
+
+
+**Gutricious Blood Test Sample Collection Guide**  
+Welcome to your Gutricious blood test! Follow this guide to collect and ship your blood sample with ease.  
+
+---
+
+### **German**  
+**Gutricious Leitfaden zur Blutprobenentnahme**  
+Willkommen zu Ihrem Gutricious-Bluttest! Nutzen Sie diesen Leitfaden, um Ihre Blutprobe einfach zu entnehmen und zu versenden.  
+
+---
+
+### **French**  
+**Guide de Collecte d'Échantillons pour le Test Sanguin Gutricious**  
+Bienvenue à votre test sanguin Gutricious ! Suivez ce guide pour collecter et expédier facilement votre échantillon de sang.  
+
+---
+
+### **Spanish**  
+**Guía de Recolección de Muestras para el Test de Sangre Gutricious**  
+¡Bienvenido a tu prueba de sangre Gutricious! Sigue esta guía para recoger y enviar tu muestra de sangre fácilmente.  
+
+---
+
+### **Dutch**  
+**Gutricious Handleiding voor het Verzamelen van Bloedmonsters**  
+Welkom bij je Gutricious-bloedtest! Volg deze handleiding om je bloedmonster eenvoudig te verzamelen en te verzenden.  
+
+---
+
+### **Portuguese**  
+**Guia de Recolha de Amostras para o Teste de Sangue Gutricious**  
+Bem-vindo ao seu teste de sangue Gutricious! Siga este guia para recolher e enviar facilmente a sua amostra de sangue.  
+
+---
+
+### **Italian**  
+**Guida alla Raccolta del Campione per il Test del Sangue Gutricious**  
+Benvenuto al tuo test del sangue Gutricious! Segui questa guida per raccogliere e spedire facilmente il tuo campione di sangue.  
+
+--- 
+
+
+
+
+
+
+
 # Gutricious Blood Test Sample Collection Guide
 
 Welcome to your Gutricious blood test! This guide will assist you in collecting and shipping your blood sample efficiently. Follow these steps carefully to ensure accurate results for your health assessment.
